@@ -1,0 +1,78 @@
+nav{
+    background-color: black;
+}
+navbar-brand{
+    padding: 10px;
+}
+.nav-link{
+    padding: 10px;
+    font-size: 20px;
+}
+.logo{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#section-1{
+    margin-top: 50px;
+    background-image: url('https://www.parkscandles.com/wp/wp-content/uploads/2019/07/iStock-823619076-1-1024x683.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+#section-2 > h3{
+    padding-top: 150px;
+}
+#section-2 > .container-fluid > a{
+    margin: 50px;
+    border-left: 10px green solid;
+    border-top: 3px green solid;
+    border-bottom: 3px green solid;
+    width: 100px;
+    border-radius: 10px;
+    line-height: 100px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-2 > .container-fluid{
+    display: none;
+}
+.btn{
+    border-radius: 30px;
+    background-color: lightcoral;
+    color:rgb(2, 12, 12);
+    border: 1px rgb(2, 12, 12) solid;
+}
+.products > .container-fluid > #skin{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 30px;
+}
+#perfume{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+#oil{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+#other{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+    margin-top: 100px;
+}
+footer > .footer-right > a > i{
+    margin: 15px;
+}
